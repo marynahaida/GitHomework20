@@ -1,6 +1,6 @@
 public class User {
     private String login;
-    private Account account;
+    Account account;
 
     public User(String login, String password) {
         this.login = login;
@@ -9,9 +9,6 @@ public class User {
 
     class Account{
         private String password;
-
-        public Account() {
-        }
 
         public Account(String password) {
             this.password = password;
